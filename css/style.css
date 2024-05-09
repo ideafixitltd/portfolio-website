@@ -1,0 +1,233 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+    padding:0;
+}
+/*Re-use component*/
+.btn{
+    background:#FD6E0A;
+    color: #ffffff;
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    padding:15px;
+}
+.section_container{
+    max-width:1280px !important;
+    margin:0 auto;
+    padding:75px 50px;
+    text-align:center;
+}
+.section_title{
+    font-size:35px;
+    text-align:center;
+    font-weight:700;
+    color:#181818;
+}
+.section_discription{
+    width:830px;
+    margin:auto;
+    color:#757575;
+    font-size:18px;
+    padding: 30px 0;
+    text-align:center;
+ }
+.primary_color{
+    color:#FD6E0A;
+}
+.secondary_color{
+    color:#181818;
+}
+/* Navigration Bar Style*/
+header{
+    background-color:#FFF8F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 0px;
+}
+.logo{
+    margin-left:50px;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration:none;
+}
+.logo{
+    font-size:35px;
+    font-weight:800;
+}
+
+/*Home Section Style*/
+.home_container{
+    display:flex;
+    align-items:center;
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    justify-content:space-between;
+    background-color:#FFF8F3;
+    padding-top:80px;
+}
+.home_content{
+    margin:0px 20px 0px 50px;
+}
+.home_greatings{
+    color:#474747;
+    font-size:45px;
+    font: weight 600;
+    margin-bottom:5px;
+}
+.home_title{
+    color:#181818;
+    font-size:85px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+.home_discription{
+    width:580px;
+    margin-bottom:30px;
+}
+.home_btn2{
+    margin-left: 30px;
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    background:none;
+    padding:15px;
+    border:2px solid #FD6E0A;
+}
+.home img{
+    width: 580px;
+}
+/*About Section Start*/
+.about{
+    margin:130px 0px;
+}
+.about_container{
+    background-color: #FFF8F3;
+}
+.about_info{
+    display:flex;
+    justify-content:space-around;
+}
+.about_info_title{
+    color:#474747;
+    margin-bottom:10px;
+}
+.about_info_discription{
+    color:#757575;
+    font-size:20px;
+}
+/*Skill Section Start*/
+.skill_box_container{
+    display:flex;
+    justify-content:space-around;
+}
+.section_discription{
+    margin-bottom:50px;
+}
+.skill_box{
+    padding: 30px 20px 30px 15px;
+    box-shadow: 4px 3px 7px #75757559;
+    border-radius:5px;
+    margin-left:30px;
+}
+.skill_icon{
+    width:65px;
+    justify-content: left;
+    display: flex;
+}
+.skill_title{
+    margin:20px 0;
+    color:#181818;
+    font-size:20px;
+    text-align:left;
+}
+.skill_description{
+    font-size:16px;
+    color:#757575;
+    text-align:left;
+}
+/*Resume Section Start*/
+.section_title{
+    margin-bottom:30px;
+    color:#181818;
+}
+.resume_box_container{
+    display:flex;
+    gap:50px;
+}
+.resume_container{
+    text-align:left;
+}
+.resume_container_title{
+    color:#474747;
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.resume_box_title{
+    color:#474747;
+    font-size:25px;
+    margin-bottom:10px;
+}
+.institute{
+    color:#757575;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.resume_box_description{
+    margin-bottom:30px;
+}
+hr{
+    margin-bottom:30px;
+    color:#d1d1d1;
+}
+.resume_btn{
+    margin-top:50px;
+}
+/*footer section start*/
+footer{
+    background-color: #FFF8F3;
+}
+.footer_container{
+    display: flex;
+    gap:15px;
+}
+.footer_column{
+    width:50%;
+}
+.footer_discription{
+    text-align:left;
+    width:80%;
+}
+.contact_form input[type="text"], input[type="email"], textarea{
+    width:100%;
+    font-size:16px;
+    color: #474747;
+    background:#fff;
+    border-radius:5px;
+    border:0;
+    padding:20px 30px;
+    margin-bottom:25px;
+    box-shadow: 7px 0px 5px #7575755e;
+}
+.contact_form input[type="button"]{
+    display:block;
+}
