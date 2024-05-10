@@ -41,6 +41,9 @@
 .secondary_color{
     color:#181818;
 }
+.icon{
+    margin-right:5px;
+}
 /* Navigration Bar Style*/
 header{
     background-color:#FFF8F3;
@@ -74,15 +77,16 @@ nav li a{
 .home_container{
     display:flex;
     align-items:center;
-    background-image: url(../image/header_bg.png);
+    background-image: url("../image/header_bg.png"), url("../image/developer.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right, top left;
     justify-content:space-between;
     background-color:#FFF8F3;
     padding-top:80px;
+    height:700px;
 }
 .home_content{
-    margin:0px 20px 0px 50px;
+    margin:0px 20px 0px 130px;
 }
 .home_greatings{
     color:#474747;
@@ -113,7 +117,7 @@ nav li a{
     border:2px solid #FD6E0A;
 }
 .home img{
-    width: 580px;
+    width: 625px;
 }
 /*About Section Start*/
 .about{
